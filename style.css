@@ -195,8 +195,8 @@
   font-weight: 500;
   line-height: 20px;
 }
-/* Qoute Box */
-.qoute-box {
+/* Quote Box */
+.quote-box {
   max-width: 330px;
   width: 100%;
   min-height: 330px;
@@ -206,12 +206,12 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   padding: 20px 30px;
 }
-.qoute-box .qoute-content .qoute {
+.quote-box .quote-content .quote {
   position: relative;
   padding: 20px 10px;
   text-align: center;
 }
-.qoute-box .qoute-content .qoute::after {
+.quote-box .quote-content .quote::after {
   position: absolute;
   content: "";
   width: 3px;
@@ -220,21 +220,21 @@
   top: 0;
   background-color: #fff4f1;
 }
-.qoute-box .qoute-title {
+.quote-box .quote-title {
   margin-bottom: 20px;
   text-transform: uppercase;
   color: #fff5f2;
   font-weight: 600;
   font-size: 20px;
 }
-.qoute-box .qoute .qoute-text {
+.quote-box .quote .quote-text {
   font-family: "Poppins", sans-serif;
   color: #ffd0c8;
   text-align: center;
   font-size: 14px;
   line-height: 2;
 }
-.qoute-box .qoute .qoute-author {
+.quote-box .quote .quote-author {
   font-family: "Poppins", sans-serif;
   color: #ffc27a;
   text-align: start;
